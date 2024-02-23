@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container-login100">
+  <div class="login100-pic js-tilt" data-tilt>
+  <img src="image/hbd pict 1.jpg" alt="IMG">
+    <h2>What is your name?</h2>
+      <form id="login-form" action="home.html" method="post">
+        <input type="text" id="first-name" name="first-name" placeholder="First Name" required><br><br>
+        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required><br><br>
+
+      <style>
+        .button-menu {
+              display: inline-block;
+              padding: 10px 20px;
+              margin: 5px;
+              background-color: #ff0066;
+              color: #99ffff;
+              text-decoration: none;
+              border-radius: 5px;
+              transition: background-color 0.3s ease;
+          }
+
+          .button:hover {
+              background-color: #cc0099;
+          }
+        
+      </style>
+        <button type="submit" onclick="submitForm()">Submit</button>
+    </form>
+</div>
+<script src="menusc.js"></script>
+</body>
+</html>
