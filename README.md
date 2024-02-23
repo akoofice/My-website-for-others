@@ -1,5 +1,11 @@
 # ```Simple Website```
 
+<p align="center">
+<a href="https://github.com/akoofice/My-website-for-others/"><img title="Size" src="https://img.shields.io/github/repo-size/akoofice/My-website-for-others?style=flat-square&color=green"></a>
+<a href="https://github.com/akoofice/My-website-for-others/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg">
+</p>
+<p align='center'>
+
 # Kado
 -Flower code from: [Septiandiwca/Kado](https://github.com/septiandwica/kado)
 
