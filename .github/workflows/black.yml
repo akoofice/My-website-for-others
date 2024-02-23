@@ -1,3 +1,5 @@
+# its for action and pull request
+
 name: Black
 
 on: push
