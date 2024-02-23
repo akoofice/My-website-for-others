@@ -23,3 +23,6 @@ Semua file dan style nya dapat di ubah di dalam masing-masing file!!
 - Love code : kosong (@npcinazuma)
 - Card code : Ako (@akoofice)
 - And all contribute for this code and file >.<
+
+# Note:
+Untuk file package.json bisa di buat sendiri yah bagi yang ingin deploy hehe
