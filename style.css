@@ -1,0 +1,166 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS untuk tampilan */
+body {
+    font-family: italic, italic;
+    color: #99cc;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cc0066;/* Warna latar belakang */
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    animation: fadeIn 2s;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff0066;
+    color: #99ffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0099;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Tambahkan gaya CSS untuk slideshow */
+.mySlides {
+    display: none;
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Animasi latar belakang */
+@keyframes birthdayBackground {
+    0% {
+        background-color: #fffdde; /* Warna latar belakang awal */
+    }
+    50% {
+        background-color: #ffdce5; /* Warna latar belakang tengah */
+    }
+    100% {
+        background-color: #fffdde; /* Warna latar belakang kembali ke awal */
+    }
+}
+
+.signature {
+    font-style: italic;
+    color: #777;
+}
+
+.container {
+    animation: birthdayBackground 5s infinite; /* Animasi latar belakang */
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS untuk menampilkan jam dan tanggal */
+.datetime-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-family: italic, italic;
+    font-size: 12px;
+    color: #fff;
+    z-index: 9999;
+}
+
+#clock {
+    margin-bottom: 5px;
+}
+
+.container {
+    /* Gaya konten situs web Anda */
+    /* Pastikan tidak tumpang tindih dengan jam dan tanggal */
+    margin-left: 80px; /* Untuk memberi ruang agar tidak tumpang tindih dengan jam dan tanggal */
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya menu navigasi */
+.menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Pastikan menu muncul di bawah konten lain */
+}
