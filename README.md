@@ -25,4 +25,6 @@ Semua file dan style nya dapat di ubah di dalam masing-masing file!!
 - And all contribute for this code and file >.<
 
 # Note:
-Untuk file package.json bisa di buat sendiri yah bagi yang ingin deploy hehe
+- Untuk file package.json bisa di buat sendiri yah bagi yang ingin deploy hehe.
+- Jika ada file yang error, bisa hubungi saya di [Telegram](https://t.me/Ech_null), Terimakasih.
+
