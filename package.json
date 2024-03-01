@@ -2,10 +2,10 @@
   "name": "birthday-project",
   "version": "1.0.0",
   "description": "A project to celebrate birthdays",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "main": "index.html",
+"scripts": {
+    "start": "node index.html"
+},
   "dependencies": {
     "gsap": "^3.11.5",
     "sweetalert2": "^11.0.20"
