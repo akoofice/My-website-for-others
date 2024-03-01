@@ -1,21 +1,16 @@
 // index.js
-const fs = require('fs');
+const { exec } = require('child_process');
 
-// Read the content of a file
-fs.readFile('filename.txt', 'utf8', (err, data) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  console.log(data);
-});
+// Fungsi untuk membuka file HTML dalam web browser
+function openHtmlFileInBrowser(htmlFilePath) {
+    if (process.platform === 'win32') {
+        exec(`start ${htmlFilePath}`);
+    } else if (process.platform === 'darwin') {
+        exec(`open ${htmlFilePath}`);
+    } else {
+        exec(`xdg-open ${htmlFilePath}`);
+    }
+}
 
-// Write content to a new file
-const content = 'Hello, this is some content to be written to a file.';
-fs.writeFile('newfile.txt', content, (err) => {
-  if (err) {
-    console.error(err);
-    return;
-  }
-  console.log('Content has been written to newfile.txt');
-});
+// Panggil fungsi untuk membuka file HTML pada browser
+openHtmlFileInBrowser('index.html'); // Ganti 'index.html' dengan nama file HTML yang ingin Anda buka
