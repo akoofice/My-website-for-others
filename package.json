@@ -2,7 +2,7 @@
   "name": "birthday-project",
   "version": "1.0.0",
   "description": "A project to celebrate birthdays",
-  "main": "index.html",
+  "main": "index.js",
 "scripts": {
     "start": "node index.html"
 },
